@@ -1,0 +1,46 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Form Styles */
+.main {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#submitDetails {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .box {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #submitDetails {
+        padding: 8px 12px;
+    }
+}
