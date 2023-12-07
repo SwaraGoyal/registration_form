@@ -70,6 +70,9 @@ app.post("/sign_up", async function (req, res) {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+const IP = process.env.IP || '0.0.0.0';
+
+
+app.listen(PORT, IP, () => {
+  console.log(`Server is running on ${IP}:${PORT}`);
 });
